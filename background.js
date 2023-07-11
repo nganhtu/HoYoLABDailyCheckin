@@ -9,7 +9,7 @@ chrome.runtime.onStartup.addListener(() => {
 const onload = async () => {
     try {
         let checkinHonkai = await fetch(
-            "https://sg-public-api.hoyolab.com/event/mani/sign?lang=vi-vn",
+            "https://sg-public-api.hoyolab.com/event/mani/sign",
             {
                 method: "POST",
                 body: JSON.stringify({ act_id: "e202110291205111" })
@@ -23,7 +23,7 @@ const onload = async () => {
 
     try {
         let checkinGenshin = await fetch(
-            "https://sg-hk4e-api.hoyolab.com/event/sol/sign?lang=vi-vn",
+            "https://sg-hk4e-api.hoyolab.com/event/sol/sign",
             {
                 method: "POST",
                 body: JSON.stringify({ act_id: "e202102251931481" })
