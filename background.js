@@ -17,7 +17,7 @@ const onload = async () => {
         console.log(await checkinHonkai.text());
     }
     catch (e) {
-        alert('Check-in Honkai error: ' + e.message);
+        console.error('Check-in Honkai error: ' + e.message);
         setTimeout(onload, TIMEOUT);
     }
 
@@ -32,7 +32,7 @@ const onload = async () => {
 
     }
     catch (e) {
-        alert('Check-in Genshin error: ' + e.message);
+        console.error('Check-in Genshin error: ' + e.message);
         setTimeout(onload, TIMEOUT);
     }
 
@@ -46,7 +46,7 @@ const onload = async () => {
         console.log(await checkinHSR.text());
     }
     catch (e) {
-        alert('Check-in HSR error: ' + e.message);
+        console.error('Check-in HSR error: ' + e.message);
         setTimeout(onload, TIMEOUT);
     }
 };
