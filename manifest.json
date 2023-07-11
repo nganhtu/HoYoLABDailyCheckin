@@ -1,7 +1,7 @@
 {
   "short_name": "Check-in",
   "name": "HoYoLAB Daily Check-in",
-  "description": "",
+  "description": "A minimal Chrome extension automatically check-in to HoYoLAB to claim rewards for Honkai Impact 3rd, Genshin Impact, and Honkai: Star Rail.",
   "version": "0.0.1",
   "host_permissions": [
     "*://*.hoyolab.com/*"
