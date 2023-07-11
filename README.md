@@ -6,7 +6,7 @@ A minimal Chrome extension automatically check-in to HoYoLAB to claim rewards fo
 
 ## Requirements
 
-This extension will only works with Chromium-based browsers.
+This extension only works with Chromium-based browsers.
 
 ## How to Use
 
