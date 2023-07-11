@@ -20,7 +20,7 @@ This extension is loaded unpacked, so it will **not** be synced to your Google a
 
 ## Permissions
 
-This extension sends a POST request to HoYoLAB's public check-in API for each game, so:
+Every time you start Chrome, this extension sends a POST request to HoYoLAB's public check-in API for each game, so:
 
 1. It doesn't need to know any of your sensitive data.
 2. You need to log in to [HoYoLAB](https://www.hoyolab.com/) first.
