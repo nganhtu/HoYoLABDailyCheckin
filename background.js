@@ -37,11 +37,11 @@ const onload = async () => {
     }
 
     try {
-        var checkinHSR = await fetch(
+        let checkinHSR = await fetch(
             "https://sg-public-api.hoyolab.com/event/luna/os/sign",
             {
                 method: "POST",
-                body: JSON.stringify({ act_id: "e202303301540311", lang: "vi-vn" })
+                body: JSON.stringify({ act_id: "e202303301540311" })
             });
         console.log(await checkinHSR.text());
     }
