@@ -1,0 +1,21 @@
+{
+  "short_name": "Check-in",
+  "name": "HoYoLAB Daily Check-in",
+  "description": "",
+  "version": "0.0.1",
+  "host_permissions": [
+    "*://*.hoyolab.com/*"
+  ],
+  "permissions": [
+    "webRequest"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "asset/img/favicon.png",
+    "48": "asset/img/favicon.png",
+    "128": "asset/img/favicon.png"
+  },
+  "manifest_version": 3
+}
