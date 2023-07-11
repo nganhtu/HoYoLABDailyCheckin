@@ -10,7 +10,7 @@ This extension will only works with Chromium-based browsers.
 
 ## How to Use
 
-1. Clone this repository, or download as ZIP and then extract it.
+1. Clone this repository, or download ZIP and then extract it.
 2. In case you haven't done this, log in to [HoYoLAB](https://www.hoyolab.com/).
 3. Go to chrome://extensions/.
 4. Enable `Developer Mode`.
