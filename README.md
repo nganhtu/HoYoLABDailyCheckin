@@ -22,7 +22,7 @@ This extension is loaded unpacked, so it will **not** be synced to your Google a
 
 ## Permissions
 
-Every time you start Chrome, this extension sends a [POST](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST) request to HoYoLAB's public check-in API for each game. Its body contains only one property, `act_id`, which is only game-dependent and is the same for all accounts. Therefore this extension doesn't need to know any of your sensitive data.
+Every time you start Chrome, this extension sends a [POST](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST) request to HoYoLAB's public check-in API for each game. Its body contains only one property, `act_id`, which is only game-dependent and is the same for all accounts. Therefore, this extension doesn't need permission to access your account information.
 
 ## Assets Sources
 
