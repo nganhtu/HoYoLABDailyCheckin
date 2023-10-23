@@ -20,10 +20,6 @@ All steps above are one-time processes. After that, you need to start your brows
 
 This extension is loaded unpacked, so it will **not** be synced to your Google account. That means if you want to use this extension on another PC, you'll need to do each step manually again. In addition, you need to stay signed in to HoYoLAB by signing in at least once per year.
 
-## Permissions
-
-Every time you start your browser, this extension sends a POST request to HoYoLAB's public check-in API for each game. Its body contains only one property, `act_id`, which is only game-dependent and is the same for all accounts. Therefore, this extension doesn't need permission to access your account information.
-
 ## Assets Sources
 
 Favicon: [HoYoLAB.png](https://genshin-impact.fandom.com/vi/wiki/HoYoLAB?file=HoYoLAB.png).
