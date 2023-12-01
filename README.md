@@ -10,11 +10,11 @@ This extension only works on Chromium-based browsers.
 
 ## How to Use
 
-1. Clone this repository, or download ZIP and then extract it.
-2. Sign in to [HoYoLAB](https://www.hoyolab.com/) if you haven't done so on this browser within a year.
-3. On your browser, go to `Manage extensions`; or more simply, go to `chrome://extensions/`.
-4. Enable `Developer Mode`.
-5. Choose `Load unpacked`, and then choose the folder you got after step 1.
+1. **Sign in to [HoYoLAB](https://www.hoyolab.com/)** if you haven't done so on this browser within a year.
+2. **Clone** this repository, or download ZIP and then extract it.
+3. On your browser, go to **Manage extensions**; or more simply, go to `chrome://extensions/`.
+4. Enable **Developer Mode**.
+5. Choose **Load unpacked**, and then choose the folder you got after step 2.
 
 All steps above are one-time processes. After that, you need to start your browser at least once per day (UTC+8) to claim HoYoLAB Daily Check-in rewards.
 
