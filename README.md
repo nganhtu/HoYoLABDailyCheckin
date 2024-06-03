@@ -2,7 +2,7 @@
 
 A minimal Chrome extension automatically check-in to HoYoLAB to claim rewards for Honkai Impact 3rd, Genshin Impact, and Honkai: Star Rail.
 
-**Update:** Since miHoYo may add a CAPTCHA to the check-in process, this extension will **not** work on the days when CAPTCHA is required. From my experience, if you don't log in and out of your account regularly, the attendance system won't ask for a CAPTCHA completion.
+**Update:** Since miHoYo may add a CAPTCHA to the check-in process, this extension will **not** work on the days when CAPTCHA completion is required. From my experience, if you don't log in and out of your account regularly, the attendance system won't ask for a CAPTCHA completion.
 
 ## Requirements
 
