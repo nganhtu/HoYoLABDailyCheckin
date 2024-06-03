@@ -18,7 +18,7 @@ This extension only works on Chromium-based browsers.
 
 All steps above are one-time processes. After that, you need to start your browser at least once per day (UTC+8) to claim HoYoLAB Daily Check-in rewards.
 
-This extension is loaded unpacked, so it will **not** be synced to your Google account. That means if you want to use this extension on another PC, you'll need to do each step manually again. In addition, you need to stay signed in to HoYoLAB by signing in at least once per year.
+This extension is loaded unpacked, so it will **not** be synced to your Google account. That means if you want to use this extension on another Chrome user or browser, you'll need to do each step manually again. In addition, you need to stay signed in to HoYoLAB by signing in at least once per year.
 
 ## Assets Sources
 
