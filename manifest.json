@@ -2,7 +2,7 @@
   "short_name": "Check-in",
   "name": "HoYoLAB Daily Check-in",
   "description": "A minimal Chrome extension automatically check-in to HoYoLAB.",
-  "version": "0.0.1",
+  "version": "2.0.1",
   "host_permissions": [
     "*://*.hoyolab.com/*"
   ],
