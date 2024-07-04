@@ -2,6 +2,10 @@
 
 const TIMEOUT = 1852;
 
+chrome.runtime.onStartup.addListener(() => {
+    setTimeout(onload, TIMEOUT);
+});
+
 const GAMES = [
     {
         name: "Honkai Impact 3",
