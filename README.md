@@ -12,7 +12,7 @@ This extension only works on Chromium-based browsers.
 
 1. **Sign in to [HoYoLAB](https://www.hoyolab.com/)** if you haven't done so on this browser within a year.
 2. **Clone** this repository, or download ZIP and then extract it.
-3. On your browser, go to **Manage extensions** at `chrome://extensions/`.
+3. On your browser, go to **Manage extensions** at [](chrome://extensions/).
 4. Enable **Developer Mode**.
 5. Choose **Load unpacked**, and then choose the folder you got after step 2.
 
