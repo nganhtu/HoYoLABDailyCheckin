@@ -2,10 +2,6 @@
 
 const TIMEOUT = 1852;
 
-chrome.runtime.onStartup.addListener(() => {
-    setTimeout(onload, TIMEOUT);
-});
-
 const GAMES = [
     {
         name: "Honkai Impact 3",
@@ -24,16 +20,34 @@ const GAMES = [
     },
     {
         name: "Zenless Zone Zero",
-        url: "https://sg-act-nap-api.hoyolab.com/event/luna/zzz/os/sign",
-        actId: "e202406031448091"
+        url: "https://sg-public-api.hoyolab.com/event/luna/zzz/os/sign",
+        actId: "e202406031448091",
+        customHeaders: {
+            'x-rpc-signgame': 'zzz'
+        }
     }
 ];
+
+const DEFAULT_HEADERS = {
+    'Accept': 'application/json, text/plain, */*',
+    'Accept-Encoding': 'gzip, deflate, br',
+    'Connection': 'keep-alive',
+    'x-rpc-app_version': '2.34.1',
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
+    'x-rpc-client_type': '4',
+    'Referer': 'https://act.hoyolab.com/',
+    'Origin': 'https://act.hoyolab.com',
+};
 
 const checkIn = async (game) => {
     try {
         const response = await fetch(game.url, {
             method: "POST",
-            body: JSON.stringify({ act_id: game.actId })
+            body: JSON.stringify({ act_id: game.actId }),
+            headers: {
+                ...DEFAULT_HEADERS,
+                ...game.customHeaders
+            }
         });
         console.log(await response.text());
     } catch (e) {
@@ -47,3 +61,7 @@ const onload = async () => {
         await checkIn(game);
     }
 };
+
+chrome.runtime.onStartup.addListener(() => {
+    setTimeout(onload, TIMEOUT);
+});
